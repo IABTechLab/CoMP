@@ -39,11 +39,11 @@ Define the object model and transport format for describing content assets offer
 This API will standardize a language that allows inventory owners to communicate metadata about the content on offer, where the terms to use that content are, and how to access the content. It also allows AI Systems to tell Content owners and/or Marketplaces the action they would like to perform using the content package
 
 ### Out of scope
-Bot Blocking - while Content Owners are strongly encouraged to block crawling until and unless some commercial agreement is in place, Content Owners must work with their partners to block crawling from AI Systems at the level they deem appropriate for their business
-Licencing Terms - Commercial terms between Content Owners, Marketplaces, and AI Systems must be negotiated a priori to this API
-Clearing House Functionality - This API can be used to communicate where AI Systems can find terms to license and access content, but token issuance, counting, and payment are out of scope.
-Supply Discovery - It is assumed that AI Systems have an understanding of the content they’d like to license. Where discovery is required, AI Systems should work directly with Marketplaces and Content Owners.
-Reporting - The CoMP API is a communication protocol only, as such, it does not explicitly support reporting, but it is strongly recommended that the Content Owner receives reporting from the AI System to track and monitor usage against terms laid out in the license.
+- <b>Bot Blocking</b> - while Content Owners are strongly encouraged to block crawling until and unless some commercial agreement is in place, Content Owners must work with their partners to block crawling from AI Systems at the level they deem appropriate for their business
+- <b>Licencing Terms</b> - Commercial terms between Content Owners, Marketplaces, and AI Systems must be negotiated a priori to this API
+- <b>Clearing House Functionality</b> - This API can be used to communicate where AI Systems can find terms to license and access content, but token issuance, counting, and payment are out of scope.
+- <b>Supply Discovery</b> - It is assumed that AI Systems have an understanding of the content they’d like to license. Where discovery is required, AI Systems should work directly with Marketplaces and Content Owners.
+- <b>Reporting</b> - The CoMP API is a communication protocol only, as such, it does not explicitly support reporting, but it is strongly recommended that the Content Owner receives reporting from the AI System to track and monitor usage against terms laid out in the license.
 
 # Specification
 # AI System Request for Content
