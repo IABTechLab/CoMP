@@ -105,6 +105,13 @@ Information about the scope of the elements included in the package
 | Attribute | Type | Description |
 | --- | --- | --- |
 | scope | int | Information about how much of the Content Owner's corpus is available in this package.<br><br>See: [List: Content Scope](#list-contentscope) |
+| ause | int | Information about the kind of use that is allowed for this package. <br><br>See: [List: Allowed Use](#list-ause) |
+| pricetype | int | Information about how the package is priced <br><br>See: [List: Price Type](#list-pricetype) |
+| pricetier | int | Tier identifier if pricing is tired (pricetype = 4) |
+| unitprice | float | Content Owner set unit price at the given basis |
+| cur | string; default "USD" | Bid currency using ISO-4217 alpha codes |
+| country | int, array | Country code(s) where this package may be used expressed by ISO 3166-1 alpha-2 codes. |
+| licensedur | int | Number of days license will active, once content package has been delivered to AI System. |
 | max | int | Indicates if there is an upper limit on how much the AI system may crawl where 0 =  No — AI system has unlimited access and 1 = Yes — there is a maximum . Where this value is 1, AI Systems should reference the license to determine what the upper limit is and what it applies to. |
 | ctype | int, array | Type of content available in this package.<br><br>See: [List: Content Type](#list-ctype) |
 | text | object, array | Information about text based assets included in this package. There should be one object per each distinct text-based asset.<br><br>See [Object: Text](#object-text) for additional detail |
@@ -227,6 +234,29 @@ Information for the AI System to access the content once a token has been issued
 | 4 | Topic (e.g. all available content within a given topic, likely based on keywords) |
 | 5 | Curated selection (subset determined by Content Owner or Marketplace) |
 | 6 | Other |
+
+### List: Allowed Use <a name="list-ause"></a>
+
+| Value | Label |
+|-------|-------|
+| 0 | Commercial |
+| 1 | Non-Commercial |
+| 2 | Educational |
+| 3 | Government |
+| 4 | Personal |
+| 5 | BYO License (refer to terms laid out in `license.url`) |
+| 6 | Other |
+
+### List: Price Type <a name="list-pricetype"></a>
+
+| Value | Label |
+|-------|-------|
+| 0 | Per-Use |
+| 1 | Per-Query |
+| 2 | Per-Token |
+| 3 | Flat |
+| 4 | Tiered Rate |
+| 5 | Other |
 
 ### List: Intended Use Function <a name="list-function"></a>
 
