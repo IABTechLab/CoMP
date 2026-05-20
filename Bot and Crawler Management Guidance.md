@@ -111,6 +111,7 @@ Each of these purposes has different implications for the content owner. The val
 The sequence matters. Content owners who act first (block/allow) without visibility often make decisions based on incomplete information — for example, blocking a crawler that drives significant referral traffic, or allowing one that consumes disproportionate resources for no benefit.
 
 **The recommended sequence:**
+![](https://github.com/IABTechLab/CoMP/blob/6688ff6dc28a7e9ef360e68b5a01f7df46005686/assets/sequence.png)
 
 ### Establish a Review Cadence
 
@@ -237,7 +238,9 @@ Once you understand who is crawling your site and what value each crawler repres
 | **Require Licensing (Monetize)** | The crawler extracts value from your content without returning commensurate value. You are willing to allow access but only under a formal license with payment terms. |
 | **Block** | The crawler provides no value, creates cost, or represents a threat. You do not want to grant access under any terms. |
 
-> As with any system, Content Owners will need to validate that terms are being adhered to at some regular cadence using processes not addressed in this document.
+![](https://github.com/IABTechLab/CoMP/blob/6688ff6dc28a7e9ef360e68b5a01f7df46005686/assets/example%20decision%20tree.png)
+
+As with any system, Content Owners will need to validate that terms are being adhered to at some regular cadence using processes not addressed in this document.
 
 ---
 
