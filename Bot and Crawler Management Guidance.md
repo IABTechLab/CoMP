@@ -225,6 +225,8 @@ Many crawlers fall into a gray zone where the value case is ambiguous. Some prin
 
 **Consider the implications.** Blocking crawlers may carry reputational or relationship implications. Consider whether a licensing conversation is more valuable than a block.
 
+Should a block or license approach be chosen, the [CoMP API](https://github.com/IABTechLab/CoMP/blob/dev/CoMP-1.0.md) provides standardized support for communication with AI Systems that would like to gain access. 
+
 ---
 
 ## Decision Framework
@@ -246,7 +248,7 @@ As with any system, Content Owners will need to validate that terms are being ad
 
 ## Conclusion
 
-To navigate the evolving landscape of crawling by AI Systems, Content Owners must have clear visibility into all non-human traffic. You need to know which commercial entities are accessing your content, how often, and for what purpose. Once qualified, teams are able to evaluate crawlers across multiple dimensions and organizations are empowered with the information they need to create an informed strategy.
+To navigate the evolving landscape of crawling by AI Systems, Content Owners must have clear visibility into all non-human traffic. You need to know which commercial entities are accessing your content, how often, and for what purpose. Once qualified, teams are able to evaluate crawlers across multiple dimensions and organizations are empowered with the information they need to create an informed strategy. 
 
 This framework is meant to help create informed strategies and make conversations across business and engineering teams more productive. Ultimately, a proactive management practice ensures that intellectual property is protected while maintaining the systems that drive discovery and revenue.
 
