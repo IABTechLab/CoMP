@@ -111,7 +111,7 @@ Each of these purposes has different implications for the content owner. The val
 The sequence matters. Content owners who act first (block/allow) without visibility often make decisions based on incomplete information — for example, blocking a crawler that drives significant referral traffic, or allowing one that consumes disproportionate resources for no benefit.
 
 **The recommended sequence:**
-![](https://github.com/IABTechLab/CoMP/blob/6688ff6dc28a7e9ef360e68b5a01f7df46005686/assets/sequence.png)
+![](https://github.com/IABTechLab/CoMP/blob/dev/assets/comp%20workflow%20strat.jpeg)
 
 ### Establish a Review Cadence
 
